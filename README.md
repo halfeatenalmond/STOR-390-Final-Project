@@ -1,2 +1,6 @@
 # STOR-390-Final-Project
 This repository hosts two main files (a PDF and RMD) of my Final Project for STOR 390 Machine Learning: Ethics and Society.
+
+The paper examines the research methodology, findings, and ethical concerns outlined in the dissertation Bias in the Consumer Price Index: What is the Evidence? by Brent R. Moulton, published in the Journal of Economic Perspectives. Moulton’s work offers a detailed exploration of the multiple factors contributing to CPI bias, including mathematical limitations, economic assumptions, and political influences.
+
+Attached is a Jupyter Python Notebook (ipynb) with the full code for my boostrapping test that I performed to estimate the sampling distribution of the statistic of interest. In my case, this was the Mean CPI Value, which I determined via the paper. Because the data used in the studies referenced in the paper was not readily available to the public, I simulated data based on a range of CPI values mentioned in the paper. From there, I performed the analysis via boostrapping test, calculated the basic summary statistics (such as RMSE, confidence interval, etc.), and the p-vale to determine if the results of the test were statistically significant. Additionally, I added another plot to display CPI Estimates from the years 1970 to 2020 via a trendline/lineplot.
